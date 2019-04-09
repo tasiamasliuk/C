@@ -24,7 +24,6 @@ void selection_sort(int *array, unsigned length)
                 min_idx = j;
             }
         }
-
         array[min_idx] = array[i];
         array[i] = min;
     }
@@ -74,8 +73,5 @@ int main()
         cout << a[i] << " ";
     }
 
-
-
     return 0;
 }
-
